@@ -1,0 +1,5 @@
+# Additional requirements for Gradio I2V Web UI
+# Install with: pip install -r requirements_gradio.txt
+
+gradio>=4.0.0
+pillow>=9.0.0  # For image handling (likely already installed)
