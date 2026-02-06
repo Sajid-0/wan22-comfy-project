@@ -1,0 +1,39 @@
+# Multi-GPU Wan2.2 S2V Server Requirements
+
+# Production Requirements for Wan2.2 S2V
+
+# Core ML/AI
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+diffusers>=0.35.0
+transformers>=4.40.0
+accelerate>=0.20.0
+
+# Web API
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+
+# Ray for distributed computing
+ray[serve]>=2.6.0
+
+# Audio/Video processing
+librosa>=0.10.0
+soundfile>=0.12.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+
+# System monitoring
+psutil>=5.9.0
+GPUtil>=1.4.0
+
+# Utilities
+requests>=2.31.0
+numpy>=1.24.0
+scipy>=1.11.0
+tqdm>=4.65.0
+
+# Development/Debug
+python-dotenv>=1.0.0
+colorlog>=6.7.0
